@@ -1,0 +1,39 @@
+{
+  "name": "vimeo-downloader",
+  "version": "0.0.0",
+  "description": "Download vimeo videos by video or user",
+  "main": "index.js",
+  "bin": {
+    "vimeo-downloader": "./bin/cli"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "vimeo",
+    "downloader"
+  ],
+  "author": "Ralph Crisostomo",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "~1.0.0",
+    "time-grunt": "~1.0.0",
+    "mocha": "~2.0.1",
+    "grunt-mocha-test": "~0.12.3",
+    "coffeelint": "~1.6.1",
+    "grunt-coffeelint": "0.0.13",
+    "chai": "~1.10.0",
+    "chai-json-schema": "~1.1.0",
+    "superagent": "~0.21.0",
+    "sinon": "~1.12.1",
+    "faker": "~2.0.1"
+  },
+  "dependencies": {
+    "q": "~1.1.1",
+    "underscore": "~1.7.0",
+    "moment": "~2.8.3",
+    "commander": "~2.5.0",
+    "coffee-script": "~1.8.0"
+  }
+}
